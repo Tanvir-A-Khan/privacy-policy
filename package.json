@@ -1,0 +1,14 @@
+{
+  "name": "privacy-policies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy policy hub for app store submissions — one page per app, built to docs/ for GitHub Pages.",
+  "scripts": {
+    "build": "node scripts/generate.js",
+    "new-app": "node scripts/new-app.js",
+    "publish": "bash scripts/publish.sh"
+  },
+  "dependencies": {
+    "marked": "^12.0.0"
+  }
+}
