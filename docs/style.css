@@ -160,3 +160,13 @@ footer.site {
   font-size: 12px;
   text-align: center;
 }
+
+.table-scroll { overflow-x: auto; }
+.table-scroll table { width: 100%; min-width: 540px; border-collapse: collapse; }
+.table-scroll th, .table-scroll td {
+  padding: 12px;
+  border: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+.table-scroll th { background: var(--bg); }

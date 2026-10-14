@@ -76,11 +76,14 @@ function build() {
       .map((label) => `<li>${label}</li>`)
       .join('\n      ');
     return fill(cardTemplate, {
+      APP_ICON: fs.existsSync(iconSrc)
+        ? `<img class="app-icon" src="./${app.slug}/icon.png" alt="" width="48" height="48" />`
+        : '',
       SLUG: app.slug,
       NAME: app.meta.name,
       TAGLINE: app.meta.tagline ?? '',
       BADGES: badges,
-    });
+    }).replace(/^[ \t]+$/gm, '');
   });
 
   const indexHtml = fill(readTemplate('index.html'), { APP_CARDS: cards.join('\n') });

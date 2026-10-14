@@ -1,0 +1,12 @@
+{
+  "name": "One Path",
+  "slug": "one-path",
+  "package": "com.ttech.onepath.app",
+  "tagline": "Puzzle game with optional accounts and cloud saves",
+  "lastUpdated": "2026-10-10",
+  "badges": [
+    "Guest play",
+    "Optional cloud save",
+    "No ads"
+  ]
+}

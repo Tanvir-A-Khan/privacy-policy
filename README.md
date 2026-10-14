@@ -61,3 +61,12 @@ App Store Connect's equivalent field.
 Edit `apps/<slug>/policy.md`, bump `lastUpdated` in its `meta.json`, then
 `npm run publish`. The URL doesn't change, so nothing needs re-submitting on
 the store side — the same link just now points at the updated text.
+
+## Published policies
+
+- [Tasbeeh Noor](https://tanvir-a-khan.github.io/privacy-policy/tasbeeh-noor/)
+- [One Path](https://tanvir-a-khan.github.io/privacy-policy/one-path/)
+
+One Path's policy is maintained in `apps/one-path/`. It preserves the policy
+published at <https://one-path-482f8.web.app/privacy>, including its effective
+date. Its account-deletion link points to the existing One Path deletion page.
