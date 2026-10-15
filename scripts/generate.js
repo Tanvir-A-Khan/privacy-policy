@@ -42,6 +42,7 @@ function build() {
   fs.rmSync(OUT_DIR, { recursive: true, force: true });
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.copyFileSync(path.join(SITE_DIR, 'style.css'), path.join(OUT_DIR, 'style.css'));
+  fs.copyFileSync(path.join(SITE_DIR, 'favicon.png'), path.join(OUT_DIR, 'favicon.png'));
   // Tells GitHub Pages not to run this through Jekyll, which would otherwise
   // ignore files starting with an underscore and can mangle plain HTML.
   fs.writeFileSync(path.join(OUT_DIR, '.nojekyll'), '');

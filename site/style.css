@@ -170,3 +170,14 @@ footer.site {
   vertical-align: top;
 }
 .table-scroll th { background: var(--bg); }
+
+.site-logo {
+  display: block;
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  background: #ffffff;
+}
